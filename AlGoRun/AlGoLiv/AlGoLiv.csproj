@@ -42,6 +42,8 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="ProbSol\Arrays\SubArray.cs" />
+    <Compile Include="ProbSol\DS\Stack.cs" />
+    <Compile Include="ProbSol\Logic\Logic.cs" />
     <Compile Include="ProbSol\Strings\Parse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -50,6 +50,9 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="ParseSpec.cs" />
+    <Compile Include="StackSpec.cs" />
+    <Compile Include="LogicSpec.cs" />
     <Compile Include="SubArraySpec.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

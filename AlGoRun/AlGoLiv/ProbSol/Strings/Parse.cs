@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using AlGoLiv.ProbSol.DS;
 namespace AlGoLiv.ProbSol.String
 {
     /// <summary>
@@ -47,6 +47,38 @@ namespace AlGoLiv.ProbSol.String
             return maxEvenLen ==0? "NoFound": arrStr[index];
         }
 
+        public static bool ValidParanthesis(string paran)
+        {
+            DS.Stack<char> stack = new DS.Stack<char>(paran.Length);
+
+            foreach(char ch in paran)
+            {
+                if(ch == '(' || ch == '{' || ch == '[')
+                {
+                    stack.Push(ch);
+                }
+                else
+                {
+                    if (stack.IsEmpty())
+                        return false;
+                    char ch1 = stack.Pop();
+                    if (!IsMatchingPair(ch1, ch))
+                        return false;
+                }
+            }
+            return stack.IsEmpty();
+            
+        }
+        private static bool IsMatchingPair(char ch1, char ch2)
+        {
+            if (ch1 == '[' && ch2 == ']')
+                return true;
+            if (ch1 == '(' && ch2 == ')')
+                return true;
+            if (ch1 == '{' && ch2 == '}')
+                return true;
+            return false;
+        }
 
     }
 }
