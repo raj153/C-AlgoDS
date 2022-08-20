@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="AlGoLiv.OOP.Booking">
+    <Position X="12" Y="0.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAQAAAAIAAAAAAAAAEAAAAAAAAABAAAAAAAIwA=</HashCode>
+      <FileName>OOP\BookMyShowTicketBooking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.InvalidStateException" Collapsed="true">
+    <Position X="5" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OOP\BookMyShowTicketBooking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.Movie">
+    <Position X="14.75" Y="2.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>OOP\BookMyShowTicketBooking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.Theatre">
+    <Position X="12" Y="1.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAEgAAAAAAAAAAAAgA=</HashCode>
+      <FileName>OOP\BookMyShowTicketBooking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.Screen">
+    <Position X="13.25" Y="1.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAgAAEAAAAAAAEAAAAAgA=</HashCode>
+      <FileName>OOP\BookMyShowTicketBooking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.Seat">
+    <Position X="12.25" Y="1.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>OOP\BookMyShowTicketBooking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.SeatLock">
+    <Position X="0.5" Y="0.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAARAAAAABAAAAAAAAAAAAAAAAEBAAAAAAAAAA=</HashCode>
+      <FileName>OOP\BookMyShowTicketBooking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.Show">
+    <Position X="15.75" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAgAAQAAAAAAAAAAAAAAAIAAgA=</HashCode>
+      <FileName>OOP\BookMyShowTicketBooking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.InMemorySeatLockProvider" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="3.5" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAABAAAAQAAgAAAAAAAAAAAAAAAgAEAAAAAII=</HashCode>
+      <FileName>OOP\BookMyShowTicketBooking.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AlGoLiv.OOP.SeatTemporaryUnavailableException" Collapsed="true">
+    <Position X="16.25" Y="5.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OOP\BookMyShowTicketBooking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.BookingController">
+    <Position X="14.75" Y="3" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAgAAAAAAAAAAAAQAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OOP\BookMyShowTicketBooking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.MovieController">
+    <Position X="14.75" Y="5.25" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAA=</HashCode>
+      <FileName>OOP\BookMyShowTicketBooking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.PaymentsController">
+    <Position X="19.75" Y="0.75" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAgAAAAAAAAAABAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OOP\BookMyShowTicketBooking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.ShowController">
+    <Position X="19.75" Y="3.25" Width="6.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAIAAgAAAAAAAAAAAAAAAgAAAAAgAAAAAAAAAAQ=</HashCode>
+      <FileName>OOP\BookMyShowTicketBooking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.TheatreController">
+    <Position X="14.75" Y="0.75" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAIAAQAAAAAAAAAAQA=</HashCode>
+      <FileName>OOP\BookMyShowTicketBooking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.BookingService">
+    <Position X="17.5" Y="0.5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAEKAAgAAAAAAAAAAABAAAQAAAAABAAAAAAAEAAAAAA=</HashCode>
+      <FileName>OOP\BookMyShowTicketBooking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.SeatPermanentlyUnavailableException" Collapsed="true">
+    <Position X="14.75" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OOP\BookMyShowTicketBooking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.BadRequestException" Collapsed="true">
+    <Position X="4.75" Y="0.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OOP\BookMyShowTicketBooking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.MovieService">
+    <Position X="14.5" Y="3" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAEAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>OOP\BookMyShowTicketBooking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.PaymentsService">
+    <Position X="13" Y="5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAEAAAEAA=</HashCode>
+      <FileName>OOP\BookMyShowTicketBooking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.SeatAvailabilityService">
+    <Position X="0.5" Y="3.5" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAggAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>OOP\BookMyShowTicketBooking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.ShowService">
+    <Position X="14.25" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAQgAAAgAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>OOP\BookMyShowTicketBooking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.TheatreService">
+    <Position X="17.75" Y="3.75" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAQIAAAAAAAAAAAAAAAAIAAAAIwAQAAAAAAAAAAUA=</HashCode>
+      <FileName>OOP\BookMyShowTicketBooking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.ScreenAlreadyOccupiedException" Collapsed="true">
+    <Position X="19.75" Y="5.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OOP\BookMyShowTicketBooking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="AlGoLiv.OOP.SeatLockProvider">
+    <Position X="0.5" Y="5.75" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAQAAgAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>OOP\BookMyShowTicketBooking.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="AlGoLiv.OOP.BookingStatus">
+    <Position X="13.5" Y="6.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQBAAAgAAAAAAA=</HashCode>
+      <FileName>OOP\BookMyShowTicketBooking.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

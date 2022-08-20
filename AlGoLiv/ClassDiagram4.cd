@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AlGoLiv.OOP.Chess" Collapsed="true">
+    <Position X="14.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAEAAAAAACTABAIAAAAAAA=</HashCode>
+      <FileName>OOP\Chess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.Player">
+    <Position X="14.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAQAQAAAAAA=</HashCode>
+      <FileName>OOP\Chess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.Time">
+    <Position X="16" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OOP\Chess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.Account">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAEAAAAEAAAgAAAAAgAAAAA=</HashCode>
+      <FileName>OOP\Chess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.ChessBoard">
+    <Position X="17.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAIAAAAAAAAEA=</HashCode>
+      <FileName>OOP\Chess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.Cell">
+    <Position X="16" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAACgAAAAAAAAAAA=</HashCode>
+      <FileName>OOP\Chess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.CellPosition">
+    <Position X="17.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>OOP\Chess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.Move">
+    <Position X="19.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAABIAAAAAAAAAAAAAAAAgAAAAAAAAQAA=</HashCode>
+      <FileName>OOP\Chess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.Piece" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAISAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>OOP\Chess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.Knight" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAISAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OOP\Chess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.Bishop" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAISAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OOP\Chess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.Rook" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAISAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OOP\Chess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.King" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAISAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OOP\Chess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.Queen" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAISAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OOP\Chess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.Pawn" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAISAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OOP\Chess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="AlGoLiv.OOP.Color">
+    <Position X="14.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OOP\Chess.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AlGoLiv.OOP.GameStatus">
+    <Position X="16" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAQAACBAAAAAAAIAAAAAA=</HashCode>
+      <FileName>OOP\Chess.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

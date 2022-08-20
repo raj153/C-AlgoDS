@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="AlGoLiv.OOP.ParkingLot">
+    <Position X="12.75" Y="3.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEgAAAAAAAAQAQIAIEAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OOP\ParkingLot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.Slot">
+    <Position X="24" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgCAABEAAAAAAAEBACAAAAAAAAAA=</HashCode>
+      <FileName>OOP\ParkingLot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.Command">
+    <Position X="20" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>JAAAAABAAAAAAABAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>OOP\ParkingLot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.Car">
+    <Position X="12.75" Y="0.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAACAAABAgAAAAAA=</HashCode>
+      <FileName>OOP\ParkingLot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.NaturalOrderingParkingStrategy" BaseTypeListCollapsed="true">
+    <Position X="26.25" Y="3.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAEAIAAAA=</HashCode>
+      <FileName>OOP\ParkingLot.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AlGoLiv.OOP.ParkingLotService">
+    <Position X="15.75" Y="3.75" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAQAAAQAAAAAAAAEAAAABAAQAAAAAAAAAAAABAA=</HashCode>
+      <FileName>OOP\ParkingLot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.CommandExecutorFactory">
+    <Position X="21.5" Y="5.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OOP\ParkingLot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.ExitCommandExecutor" Collapsed="true">
+    <Position X="9.5" Y="6" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>OOP\ParkingLot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.SlotForRegNumberCommandExecutor" Collapsed="true">
+    <Position X="9" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>OOP\ParkingLot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.ColorToSlotNumberCommandExecutor" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>OOP\ParkingLot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.ColorToRegNumberCommandExecutor" Collapsed="true">
+    <Position X="3.5" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>OOP\ParkingLot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.StatusCommandExecutor" Collapsed="true">
+    <Position X="4.25" Y="4" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>OOP\ParkingLot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.LeaveCommandExecutor" Collapsed="true">
+    <Position X="6.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>OOP\ParkingLot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.ParkCommandExecutor" Collapsed="true">
+    <Position X="2.5" Y="6" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>OOP\ParkingLot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.CreateParkingLotCommandExecutor" Collapsed="true">
+    <Position X="1" Y="3.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>OOP\ParkingLot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.CommandExecutor">
+    <Position X="5" Y="0.5" Width="6.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAIAAAAgAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OOP\ParkingLot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.OutputPrinter" Collapsed="true">
+    <Position X="24" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OOP\ParkingLot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.NoFreeSlotAvailableException" Collapsed="true">
+    <Position X="22.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OOP\ParkingLot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.InvalidCommandException" Collapsed="true">
+    <Position X="24" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OOP\ParkingLot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.SlotAlreadyOccupiedException" Collapsed="true">
+    <Position X="16.25" Y="1.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OOP\ParkingLot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.InvalidSlotException" Collapsed="true">
+    <Position X="16.25" Y="0.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OOP\ParkingLot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.ParkingLotException" Collapsed="true">
+    <Position X="16.5" Y="2.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OOP\ParkingLot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="AlGoLiv.OOP.ParkingStrategy">
+    <Position X="21.5" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAEAIAAAA=</HashCode>
+      <FileName>OOP\ParkingLot.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

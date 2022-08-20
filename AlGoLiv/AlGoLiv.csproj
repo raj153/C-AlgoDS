@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{85A40B14-CCAE-4372-9879-6E8FA5567B11}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AlGoLiv</RootNamespace>
+    <AssemblyName>AlGoLiv</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="OOP\BookMyShowTicketBooking.cs" />
+    <Compile Include="OOP\CabBookingOLAUBER.cs" />
+    <Compile Include="OOP\Cache.cs" />
+    <Compile Include="OOP\Chess.cs" />
+    <Compile Include="OOP\ChessCompo.cs" />
+    <Compile Include="OOP\Elevator.cs" />
+    <Compile Include="OOP\MessageBroker.cs" />
+    <Compile Include="OOP\MineSweepers.cs" />
+    <Compile Include="OOP\NotFoundException.cs" />
+    <Compile Include="OOP\NumberFormatException.cs" />
+    <Compile Include="OOP\ParkingLot.cs" />
+    <Compile Include="OOP\ParkingLotMultiLevel.cs" />
+    <Compile Include="OOP\PrintOddEvenMultiThreadConcurrency.cs" />
+    <Compile Include="OOP\PrintOddEvenTwoThread.cs" />
+    <Compile Include="OOP\SnakesAndLadders.cs" />
+    <Compile Include="OOP\TicTacToe.cs" />
+    <Compile Include="ProbSol\Arrays\Misc.cs" />
+    <Compile Include="ProbSol\DoublyLinkedList\DoublyLinkedList.cs" />
+    <Compile Include="ProbSol\DoublyLinkedList\DoublyLinkedListNode.cs" />
+    <Compile Include="ProbSol\DoublyLinkedList\ListBasic.cs" />
+    <Compile Include="ProbSol\DS\Backtracking.cs" />
+    <Compile Include="ProbSol\DS\Heap.cs" />
+    <Compile Include="ProbSol\DS\LRUCache.cs" />
+    <Compile Include="ProbSol\DS\Trie.cs" />
+    <Compile Include="ProbSol\Arrays\SubArray.cs" />
+    <Compile Include="ProbSol\DS\Stack.cs" />
+    <Compile Include="ProbSol\DoublyLinkedList\ListNode.cs" />
+    <Compile Include="ProbSol\DoublyLinkedList\MergeKSortedLists.cs" />
+    <Compile Include="ProbSol\Logic\Boggle.cs" />
+    <Compile Include="ProbSol\Logic\Logic.cs" />
+    <Compile Include="ProbSol\Logic\SankesAndLadders.cs" />
+    <Compile Include="ProbSol\Logic\TicTacToe.cs" />
+    <Compile Include="ProbSol\Graph\MatrixOp.cs" />
+    <Compile Include="ProbSol\Strings\Parse.cs" />
+    <Compile Include="ProbSol\Tree\DistanceFromTarget.cs" />
+    <Compile Include="ProbSol\Tree\TreeBacktracking.cs" />
+    <Compile Include="ProbSol\Tree\TreeNode.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="POCO\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram10.cd" />
+    <None Include="ClassDiagram11.cd" />
+    <None Include="ClassDiagram12.cd" />
+    <None Include="ClassDiagram13.cd" />
+    <None Include="ClassDiagram14.cd" />
+    <None Include="ClassDiagram15.cd" />
+    <None Include="ClassDiagram16.cd" />
+    <None Include="ClassDiagram17.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="ClassDiagram4.cd" />
+    <None Include="ClassDiagram5.cd" />
+    <None Include="ClassDiagram6.cd" />
+    <None Include="ClassDiagram7.cd" />
+    <None Include="ClassDiagram8.cd" />
+    <None Include="ClassDiagram9.cd" />
+    <None Include="MessageBroker.cd" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="AlGoLiv.OOP.MessageQueueTester" Collapsed="true">
+    <Position X="11.5" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>OOP\MessageBroker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.MessageBroker">
+    <Position X="0.5" Y="0.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAEAAIAAAAAACAAAAAAACAAAAAAA=</HashCode>
+      <FileName>OOP\MessageBroker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.SleepingSubscirber" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAQAAABAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>OOP\MessageBroker.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AlGoLiv.OOP.TopicHandler">
+    <Position X="0.5" Y="6" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAEAAQAAEAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OOP\MessageBroker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.SubscriberWorker">
+    <Position X="7.25" Y="6" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEQAAAAgAAAAAAAAAAAACAAAAI=</HashCode>
+      <FileName>OOP\MessageBroker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.Topic">
+    <Position X="4.75" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAABAAAAAAAACgAAAAAABEAACASAACAA=</HashCode>
+      <FileName>OOP\MessageBroker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.TopicSubscriber">
+    <Position X="0.5" Y="3" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAICAAAAAAAAAAAAAAAAAAACAAgAA=</HashCode>
+      <FileName>OOP\MessageBroker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlGoLiv.OOP.Message">
+    <Position X="4.5" Y="6" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAIAAAAAAAAAAA=</HashCode>
+      <FileName>OOP\MessageBroker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="AlGoLiv.OOP.ISubscriber">
+    <Position X="8.5" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>OOP\MessageBroker.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
